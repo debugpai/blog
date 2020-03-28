@@ -54,11 +54,11 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
+        Hi. My name is <strong>{author}</strong>. Welcome to my blog. I live and work in Amsterdam.
         {` `}
+        You can follow me on Twitter {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+          @debugpai
         </a>
       </p>
     </div>
